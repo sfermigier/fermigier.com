@@ -25,3 +25,11 @@ deploy: build push
 .PHONY:
 clean:
 	rm -rf dist src/.temp
+
+
+run:
+	watchmedo shell-command \
+		--patterns="*.py;*.j2" \
+		--recursive \
+		--command='alamo build' \
+		.

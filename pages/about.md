@@ -10,3 +10,4 @@ In its current incarnation, it uses:
 - [Gridsome](https://www.gridsome.org/)
 - [gridsome-portfolio-starter](https://github.com/drehimself/gridsome-portfolio-starter)
 - [Tailwind CSS](https://tailwindcss.com/)
+- ...

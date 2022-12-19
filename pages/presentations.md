@@ -6,6 +6,13 @@ I enjoy giving talks on subjects that matter to me.
 
 Here's a (partial) list of the talks and lectures I have given over the last 20+ years.
 
+## 2022
+
+### November
+
+### October
+
+---
 
 ## 2021  [🦠+💉]
 
@@ -22,6 +29,8 @@ Here's a (partial) list of the talks and lectures I have given over the last 20+
 * "Some comments about the Bothorel mission in France", Online. [[Speakerdeck](https://speakerdeck.com/sfermigier/some-comments-about-the-bothorel-mission-in-france)].
 
 
+---
+
 ## 2020 [🦠]
 
 ### January
@@ -30,6 +39,7 @@ Here's a (partial) list of the talks and lectures I have given over the last 20+
 
 * "20 years of FLOSS public policies in France (Pre-FOSDEM 2020 edition)". Brussels, Belgium. [[Speakerdeck](https://speakerdeck.com/sfermigier/20-years-of-floss-public-policies-in-france-pre-fosdem-2020-edition)]
 
+---
 
 ## 2019
 

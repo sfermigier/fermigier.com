@@ -1,5 +1,7 @@
 ---
+path: /
 title: n/a
+template: home.j2
 ---
 
 My name is Stefane Fermigier, I'm a [tech entrepreneur](/business/).

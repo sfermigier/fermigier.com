@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+{% include("_head.j2") %}
+
+<body>
+<div
+    class="content-wrapper bg-background-primary font-sans text-copy-primary leading-normal flex flex-col min-h-screen theme-light"
+    id="app">
+
+  {% include("_header.j2") %}
+
+  <div class="flex-grow">
+    <div class="container-inner mx-auto my-16 text-xl">
+      <h1 class="text-3xl font-bold leading-tight">
+        {{ page.title }}
+      </h1>
+
+      <div class="markdown-body content mb-8">
+        {{ page.body_html | safe }}
+      </div>
+    </div>
+  </div>
+</div>
+
+{% include("_footer.j2") %}
+
+</body>
+</html>

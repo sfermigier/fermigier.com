@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+{% include("_head.j2") %}
+
+<body>
+<div
+    class="content-wrapper bg-background-primary font-sans text-copy-primary leading-normal flex flex-col min-h-screen theme-light"
+    id="app">
+
+  {% include("_header.j2") %}
+
+
+  <div class="flex-grow">
+
+    <div
+        class="hero container-inner mx-auto flex flex-col sm:flex-row justify-between py-16"
+    >
+      <div class="text-4xl font-bold w-full sm:w-3/5 text-center sm:text-left">
+        <div class="leading-tight">Stefane Fermigier</div>
+        <div class="text-brand-700 leading-tight">Fullstack entrepreneur</div>
+      </div>
+
+      <!--      <div class="mt-8 sm:mt-0">-->
+      <!--        <g-image-->
+      <!--          src="../../static/developer.svg"-->
+      <!--          alt="hero"-->
+      <!--          class="mx-auto sm:mx-0"-->
+      <!--        />-->
+      <!--      </div>-->
+    </div>
+    <!-- end hero -->
+
+    <div class="container-inner mx-auto my-16 text-xl">
+      <div class="markdown-body content mb-8">
+        {{ page.body_html | safe }}
+      </div>
+    </div>
+  </div>
+</div>
+
+{% include("_footer.j2") %}
+</body>
+</html>
