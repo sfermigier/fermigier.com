@@ -42,7 +42,7 @@ class Builder:
 
     def build_blog(self):
         for post in self.posts:
-            self.make_post(post)
+            post.build(self)
 
             for tag in post.tags:
                 self.tags.setdefault(tag["name"], []).append(post)
@@ -52,31 +52,26 @@ class Builder:
         for tag in self.tags:
             self.make_blog_index(tag)
 
-    def make_post(self, post: Post):
-        template = self.jinja_env.get_template("blog_post.j2")
-        result = template.render(post=post)
-        path = post["path"]
-        assert path.startswith("/")
-        dir_path = Path("dist") / path[1:]
-        dir_path.mkdir(parents=True, exist_ok=True)
-        with (dir_path / "index.html").open("w") as fd:
-            fd.write(result)
-
     def make_blog_index(self, tag=None):
         posts = [post for post in self.posts]
         posts.sort(key=lambda post: post["date"], reverse=True)
+
         if tag:
             posts = [post for post in posts if tag in post["tags"]]
+            dest_path = Path(f"dist/blog/tag/{tag}/index.html")
+            title = f"Blog - Tag: {tag}"
+        else:
+            dest_path = Path("dist/blog/index.html")
+            title = "Blog"
+
         if len(posts) > 10:
             posts = posts[:10]
+
         template = self.jinja_env.get_template("blog_index.j2")
-        result = template.render(posts=posts)
-        if tag:
-            dir_path = Path(f"dist/blog/{tag}")
-        else:
-            dir_path = Path("dist/blog")
-        dir_path.mkdir(parents=True, exist_ok=True)
-        with (dir_path / "index.html").open("w") as fd:
+        result = template.render(posts=posts, title=title)
+
+        dest_path.parent.mkdir(parents=True, exist_ok=True)
+        with dest_path.open("w") as fd:
             fd.write(result)
 
     # Regular pages
@@ -84,20 +79,6 @@ class Builder:
     def build_pages(self):
         for page in self.pages:
             page.build(self)
-
-    #         self.make_page(page)
-    #
-    # def make_page(self, page: Page):
-    #     template_name = page.metadata.get("template", "page.j2")
-    #     template = self.jinja_env.get_template(template_name)
-    #     result = template.render(page=page)
-    #     if page.id == "home-about":
-    #         dir_path = Path("dist")
-    #     else:
-    #         dir_path = Path("dist") / page.id
-    #     dir_path.mkdir(parents=True, exist_ok=True)
-    #     with (dir_path / "index.html").open("w") as fd:
-    #         fd.write(result)
 
 
 def build():

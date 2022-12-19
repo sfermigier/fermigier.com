@@ -25,6 +25,9 @@ push:
 	rsync -e ssh -avz --delete-after \
 		dist/ web@bulma:/var/www/fermigier.com/
 
+.PHONY: deploy
+deploy: push
+
 .PHONY: clean
 clean:
 	rm -rf dist src/.temp
