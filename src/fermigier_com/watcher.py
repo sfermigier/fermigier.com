@@ -1,5 +1,3 @@
-from pathlib import Path
-
 import watchfiles
 from watchfiles import DefaultFilter
 
@@ -12,7 +10,7 @@ def watch():
     ignore_dirs = tuple(DefaultFilter.ignore_dirs) + ("dist",)
     filter = DefaultFilter(ignore_dirs=ignore_dirs)
 
-    for changes in watchfiles.watch('.', watch_filter=filter):
+    for changes in watchfiles.watch(".", watch_filter=filter):
         print(changes)
         print("Changes detected, rebuilding...")
         build()
