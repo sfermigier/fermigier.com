@@ -2,7 +2,7 @@
 title: "Conférence sur le logiciel libre et la souveraineté numérique"
 date: 2022-10-26
 path: /blog/2022/10/conference-logiciel-libre-souverainete
-summary: "J'ai donné une conférence sur le logiciel libre et la souveraineté numérique"
+summary: "J'ai donné récemment une conférence sur le logiciel libre et la souveraineté numérique"
 tags: ['Logiciel libre', 'Souveraineté', 'Open Source']
 ---
 

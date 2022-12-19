@@ -18,7 +18,7 @@ class Builder:
         self.tags: dict = {}
 
     def scan(self):
-        for path in Path("blog").glob("*.md"):
+        for path in Path("blog").rglob("*.md"):
             post = Post(path)
             self.posts.append(post)
 
