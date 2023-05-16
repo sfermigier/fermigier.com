@@ -1,2 +1,2 @@
 watcher: alamano watch
-web: python -m http.server 8000 --directory dist
+web: python -m http.server 5000 --directory dist
