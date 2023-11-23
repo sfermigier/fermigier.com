@@ -6,7 +6,7 @@
 
 /* Custos perso */
 .content a {
-  @apply text-blue-800 font-bold;
+  @apply text-brand-800 font-bold;
 }
 
 .content a {
@@ -77,7 +77,7 @@
 }
 
 .theme-dark .markdown-body {
-    color: #24292e;
+  color: #24292e;
 }
 
 .theme-dark .search-highlighted {
@@ -98,11 +98,11 @@
   --text-copy-primary: #cbd5e0;
   --text-copy-secondary: #e2e8f0;
 
-  --border-border-color-primary:  #1a202c;
+  --border-border-color-primary: #1a202c;
 }
 
 .theme-dark .markdown-body {
-    color: #cbd5e0;
+  color: #cbd5e0;
 }
 
 /* Other */
