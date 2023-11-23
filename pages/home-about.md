@@ -38,6 +38,7 @@ developing the open source ecosystem in France and Europe:
 
 * [AFUL](http://www.aful.org/) (1998), the french-speaking Linux and free software users association. I served as its chairman from 1998 to 2003.
 
+
 ### Open source projects
 
 I'm also the founder or a cofounder of several [open source projects](/open-source/), including:
@@ -57,6 +58,16 @@ I'm also the founder or a cofounder of several [open source projects](/open-sour
 * [Nuxeo CPS](https://github.com/nuxeo-cps) - the Nuxeo Collaborative Portal Server.
 
 [➜ More about my open source activities](/open-source/)
+
+
+### Web sites and applications
+
+* [Joinux](https://joinux.com) - Joinux - Resources for the F/OSS ecosystem.
+
+* [Guide des solutions Open Source](https://guide-solutions-opensource.com/) - a guide to open source solutions for business.
+
+* [Linux Center](https://linux-center.org/) - a time capsule of the Linux ecosystem in 1999-2001.
+
 
 ## Additional resources
 
