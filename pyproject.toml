@@ -9,20 +9,20 @@ packages = [{include = "fermigier_com", from = "src" }]
 [tool.poetry.dependencies]
 python = "^3.10"
 Jinja2 = "^3.1.2"
-Markdown = "^3.4.1"
-typer = "^0.7.0"
-attrs = "^22.1.0"
-pyyaml = "^6.0"
-argh = "^0.26.2"
-watchdog = {extras = ["watchmedo"], version = "^2.2.0"}
+Markdown = "^3.5.1"
+typer = "^0.9.0"
+attrs = "^23.1.0"
+pyyaml = "^6.0.1"
+argh = "^0.30.4"
+watchdog = {extras = ["watchmedo"], version = "^3.0.0"}
 honcho = "^1.1.0"
-watchfiles = "^0.18.1"
+watchfiles = "^0.21.0"
 
 
 [tool.poetry.group.dev.dependencies]
-pytest = "^7.2.0"
-devtools = "^0.10.0"
-ruff = "^0.0.187"
+pytest = "^7.4.3"
+devtools = "^0.12.2"
+ruff = "^0.1.6"
 
 [build-system]
 requires = ["poetry-core"]

@@ -18,6 +18,8 @@ format:
 .PHONY: build
 build:
 	ruff src tests
+	yarn run build
+	cp ./tailwind/dist/styles.css assets/css/
 	alamano build
 
 .PHONY: push
