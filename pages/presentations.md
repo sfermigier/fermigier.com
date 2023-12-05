@@ -6,6 +6,12 @@ I enjoy giving talks on subjects that matter to me.
 
 Here's a (partial) list of the talks and lectures I have given over the last 20+ years.
 
+## 2023
+
+### December
+
+* "htmx & Hypermedia", OSXP, Paris [https://fermigier.com/slides/2023-htmx-OSXP/](html)
+
 ## 2022
 
 ### November
@@ -49,7 +55,7 @@ Here's a (partial) list of the talks and lectures I have given over the last 20+
 
 * "Business analytics with OlaPy", POSS 2019, Paris, France. [[Speakerdeck](https://speakerdeck.com/sfermigier/business-analytics-with-olapy)]
 
-### November 
+### November
 
 * Presentation of the Lab&Co platform during the [Free Software Publisher Spotlight
 event](https://www.fdl-lef.org/fr/FDL-Document.Blog.Free.Software.Publisher.Spotlight) at Cap Digital. Paris, France. [[Speakerdeck](https://speakerdeck.com/sfermigier/retour-d-experience-sur-lab-and-co-un-progiciel-pour-si-recherche)]
@@ -89,7 +95,7 @@ event](https://www.fdl-lef.org/fr/FDL-Document.Blog.Free.Software.Publisher.Spot
 
 ### November
 
-* "Présentation de la plateforme et des solutions Abilian pour la collaboration". Présenté lors du Paris Open Source Summit 2015. Paris, France. [[SlideShare](https://www.slideshare.net/sfermigier/pitch-abilian-paris-open-source-summit-2015)] 
+* "Présentation de la plateforme et des solutions Abilian pour la collaboration". Présenté lors du Paris Open Source Summit 2015. Paris, France. [[SlideShare](https://www.slideshare.net/sfermigier/pitch-abilian-paris-open-source-summit-2015)]
 
 ## 2014
 
@@ -220,7 +226,7 @@ event](https://www.fdl-lef.org/fr/FDL-Document.Blog.Free.Software.Publisher.Spot
 
 ## 2009
 
-### November 
+### November
 
 * "Some remarks from an industrial partner perspective", IKS General Assembly. [[PDF](/assets/pdf/iks-nuxeo-remarks-200911.pdf).
 
