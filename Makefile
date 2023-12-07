@@ -24,7 +24,8 @@ build:
 
 .PHONY: push
 push:
-	rsync -e ssh -avz --delete-after \
+	# rsync -e ssh -avz delete-after ...
+	rsync -e ssh -avz \
 		dist/ web@bulma:/var/www/fermigier.com/
 
 .PHONY: deploy

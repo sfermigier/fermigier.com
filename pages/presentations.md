@@ -10,13 +10,31 @@ Here's a (partial) list of the talks and lectures I have given over the last 20+
 
 ### December
 
-* "htmx & Hypermedia", OSXP, Paris [https://fermigier.com/slides/2023-htmx-OSXP/](html)
+* "htmx & Hypermedia", OSXP, Paris [[html](https://fermigier.com/slides/2023-htmx-OSXP/)]
+* "Grandeur and Decadence of EU OSS Policy", OSXP, Paris [[Speakerdeck](https://speakerdeck.com/sfermigier/grandeur-and-decadence-of-eu-oss-policy)]
+
+### May
+
+* "Research challenges related to Open source and digital sovereignty in the Cloud/Edge/IoT Continuum", Brussels, [[Speakerdeck](https://speakerdeck.com/sfermigier/iot-continuum)]
+
+### February
+
+* "Pitch Abilian", IMPULSE, Paris [[Speakerdeck](https://speakerdeck.com/sfermigier/pitch-abilian-at-impulse-2023)]
+
+### January
+
+* "Nua - a self-hosted, resilient PaaS", Paris, [[Speakerdeck](https://speakerdeck.com/sfermigier/nua-a-self-hosted-resilient-paas)]
 
 ## 2022
 
 ### November
 
+* "Souveraineté numérique et logiciel libre: colloque de la SIF 2022", Colloque de la SIF au CNAM, [[Speakerdeck](https://speakerdeck.com/sfermigier/souverainete-numerique-et-logiciel-libre-colloque-de-la-sif-2022)]
+
+
 ### October
+
+* "Le logiciel libre: au service de la souveraineté numérique depuis plus de 35 ans", Sorbonne Université, Paris, [[Speakerdeck](https://speakerdeck.com/sfermigier/le-logiciel-libre-au-service-de-la-souverainete-numerique-depuis-plus-de-35-ans)]
 
 ---
 
