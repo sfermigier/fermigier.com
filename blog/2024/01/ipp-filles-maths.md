@@ -10,12 +10,12 @@ L'IPP (institut de recherche dépendant de l'[École d'Économie de Paris - Pari
 
 Voici quelques points de réflexion et d'analyse sur cette situation :
 
-1. **Universalité du Phénomène** : Le fait que ce décrochage s'observe dans toutes les configurations familiales et scolaires suggère des causes profondément ancrées dans la société, possiblement liées à des stéréotypes de genre et des attentes culturelles, et à leur influence inconsciente sur la façon dont les filles perçoivent leurs capacités en mathématiques et la manière dont elles sont encouragées (ou non) dans ce domaine.
+1. **Universalité du phénomène** : Le fait que ce décrochage s'observe dans toutes les configurations familiales et scolaires suggère des causes profondément ancrées dans la société, possiblement liées à des stéréotypes de genre et des attentes culturelles, et à leur influence inconsciente sur la façon dont les filles perçoivent leurs capacités en mathématiques et la manière dont elles sont encouragées (ou non) dans ce domaine.
 
-2. **Impact de l'Environnement Scolaire** : Bien que l'environnement scolaire ne semble expliquer qu'une partie du phénomène, il est notable que le décrochage est moins prononcé dans les classes avec une majorité de filles ou avec une enseignante. Cela indique l'importance d'un environnement scolaire soutenant et moins biaisé en termes de genre.
+2. **Impact de l'environnement scolaire** : Bien que l'environnement scolaire ne semble expliquer qu'une partie du phénomène, il est notable que le décrochage est moins prononcé dans les classes avec une majorité de filles ou avec une enseignante. Cela indique l'importance d'un environnement scolaire soutenant et moins biaisé en termes de genre.
 
-3. **Dynamique parmi les Élèves Performantes** : Le fait que le décrochage soit particulièrement marqué parmi les filles les plus performantes en début de CP est particulièrement préoccupant, avec des implications à long terme sur leur parcours éducatif et professionnel.
+3. **Dynamique parmi les élèves performantes** : Le fait que le décrochage soit particulièrement marqué parmi les filles les plus performantes en début de CP est particulièrement préoccupant, avec des implications à long terme sur leur parcours éducatif et professionnel.
 
-4. **Stabilité en Français vs Décrochage en Mathématiques** : La constance de la performance des filles en français indique que le problème est spécifique au domaine des mathématiques, et ne se manifeste pas en Français. Une explication possible est l'existence tenace de stéréotypes de genre spécifiques associant les garçons à de meilleures compétences en mathématiques.
+4. **Stabilité en Français vs décrochage en mathématiques** : La constance de la performance des filles en français indique que le problème est spécifique au domaine des mathématiques, et ne se manifeste pas en Français. Une explication possible est l'existence tenace de stéréotypes de genre spécifiques associant les garçons à de meilleures compétences en mathématiques.
 
 5. **Conséquences** : Cette situation appelle une fois de plus à une réflexion sur les stratégies d’enseignement et les politiques éducatives. Il apparaît notamment indispensable d’adopter des approches pédagogiques plus inclusives, ainsi que des programmes visant à encourager et soutenir les filles dans les domaines STEM dès le plus jeune âge.
