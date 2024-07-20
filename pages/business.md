@@ -15,18 +15,10 @@ title: Business
 
 ## Businesses I have invested in
 
-* [Rapid.space](https://rapid.space/): I'm an early investor in Rapid.space, 
-  a *Hyper Open* cloud provider (i.e. based on open-source, open hardware,
-  and open service) offering Virtual Private Servers (VPS),
-  Content Delivery Network (CDN) and global IPv6 (SDN).
+* [Rapid.space](https://rapid.space/): I'm an early investor in Rapid.space, a *Hyper Open* cloud provider (i.e. based on open-source, open hardware, and open service) offering Virtual Private Servers (VPS), Content Delivery Network (CDN) and global IPv6 (SDN).
 
-* [/e/](https://e.foundation/): I'm an early investor in
-  /e/, a company whose mission is to "make technology that respects
-  user privacy accessible to everyone".
+* [Murena](https://murena.com): I'm an early investor in Murea, creator of /e/OS, a company whose mission is to "make technology that respects user privacy accessible to everyone".
 
-* [Alcmeon](https://alcmeon.com/): an AI company that
-  uses text mining to provide an automated social media presence to
-  brands.
+* [Alcmeon](https://alcmeon.com/): was founded in 2011 to help brands engage in online communities through automated (e.g. AI) responses, later evolving into a business messaging hub that combines automation and human intervention for improved customer service and sales across various social media platforms.
 
-* [Mandriva](https://fr.wikipedia.org/wiki/Mandriva): I was an early
-  investor in Mandriva (néé Linux Mandrake).
+* [Mandriva](https://fr.wikipedia.org/wiki/Mandriva): I was an early investor in Mandriva (néé Linux Mandrake).

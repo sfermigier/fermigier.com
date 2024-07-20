@@ -38,6 +38,15 @@ developing the open source ecosystem in France and Europe:
 
 * [AFUL](http://www.aful.org/) (1998), the french-speaking Linux and free software users association. I served as its chairman from 1998 to 2003.
 
+### Other organisations
+
+* [European Alliance for Industrial Data, Edge and Cloud](https://digital-strategy.ec.europa.eu/en/policies/cloud-alliance) (since 2021): the European Alliance for Industrial Data, Edge and Cloud is a public-private partnership that aims to foster the development and deployment of next generation edge and cloud technologies.
+
+* [Euclidia](https://euclidia.eu/) (since 2021): the European Cloud Industrial Alliance (EUCLIDIA) is an industry alliance made up of SMEs active in the cloud industry. Members are cloud SMEs that develop and supply hardware or software for IaaS, PaaS or SaaS, and which are majority owned by European-based shareholders.
+
+* [Cap Digital](https://www.capdigital.com/) (since 2020): the Paris Region Digital Content and Services Competitiveness Cluster. I've bee a member since 2020.
+
+* [Systematic Paris Region](https://www.systematic-paris-region.org/) (2007-2019): the Paris Region Digital Systems and Software Competitiveness Cluster.
 
 ### Open source projects
 
@@ -53,7 +62,7 @@ I'm also the founder or a cofounder of several [open source projects](/open-sour
 
 * [Apache Chemistry](http://chemistry.apache.org/) - a set of implementations of the Content Management Interoperability Services (CMIS) specification.
 
-* [Nuxeo EP](https://github.com/nuxeo/nuxeo) - content management platform to build modern business applications 
+* [Nuxeo EP](https://github.com/nuxeo/nuxeo) - content management platform to build modern business applications
 
 * [Nuxeo CPS](https://github.com/nuxeo-cps) - the Nuxeo Collaborative Portal Server.
 
