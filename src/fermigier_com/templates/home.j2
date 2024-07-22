@@ -1,44 +1,38 @@
-<!DOCTYPE html>
-<html lang="en">
+{% extends "_base.j2" %}
 
-{% include("_head.j2") %}
+{% block title %}{% endblock %}
 
-<body>
-<div
-    class="content-wrapper bg-background-primary font-sans text-copy-primary leading-normal flex flex-col min-h-screen theme-light"
-    id="app">
-
-  {% include("_header.j2") %}
-
-
-  <div class="flex-grow">
-
-    <div
-        class="hero container-inner mx-auto flex flex-col sm:flex-row justify-between py-16"
-    >
-      <div class="text-4xl font-bold w-full sm:w-3/5 text-center sm:text-left">
-        <div class="leading-tight">Stefane Fermigier</div>
-        <div class="text-brand-700 leading-tight">Fullstack entrepreneur</div>
-      </div>
-
-      <!--      <div class="mt-8 sm:mt-0">-->
-      <!--        <g-image-->
-      <!--          src="../../static/developer.svg"-->
-      <!--          alt="hero"-->
-      <!--          class="mx-auto sm:mx-0"-->
-      <!--        />-->
-      <!--      </div>-->
-    </div>
-    <!-- end hero -->
-
-    <div class="container-inner mx-auto my-16 text-xl">
-      <div class="markdown-body content mb-8">
-        {{ page.body_html | safe }}
-      </div>
+{% block content %}
+  <div
+    class="hero container-inner mx-auto flex flex-col sm:flex-row justify-between py-16"
+  >
+    <div class="text-4xl font-bold w-full sm:w-3/5 text-center sm:text-left">
+      <div class="leading-tight">Stefane Fermigier</div>
+      <div class="text-brand-700 leading-tight">Fullstack entrepreneur</div>
     </div>
   </div>
-</div>
 
-{% include("_footer.j2") %}
-</body>
-</html>
+  <div class="content">
+    <div class="text-xl">
+      My name is Stefane Fermigier, I'm a <a href="/business/">tech entrepreneur</a>
+      and an <a href="/open-source/">open source developer</a>.
+    </div>
+
+    <div>
+      <h2>Recent blog posts</h2>
+    </div>
+
+    <ul style='list-style-type: "\279C ";'>
+      {% for post in posts[0:5] %}
+        <li>
+          <a href="{{ post.url }}" class="">{{ post.title }}</a>
+          ({{ post.date }})
+        </li>
+      {% endfor %}
+    </ul>
+
+    <div class="markdown-body content mb-8">
+      {{ page.body_html | safe }}
+    </div>
+  </div>
+{% endblock %}

@@ -1,7 +1,7 @@
 from pathlib import Path
 
 import yaml
-from markdown import markdown
+from markdown_it import MarkdownIt
 
 
 class Page:
@@ -40,7 +40,7 @@ class Page:
         if not self.body:
             return ""
         if not self._body_html:
-            self._body_html = markdown(self.body)
+            self._body_html = parse_markdown(self.body)
         return self._body_html
 
     def __getitem__(self, key):
@@ -58,19 +58,23 @@ class Page:
 
     def build(self, builder):
         result = self.render(builder)
-        dir_path = self.dest_path.parent
-        dir_path.mkdir(parents=True, exist_ok=True)
-        with self.dest_path.open("w") as fd:
-            fd.write(result)
+        self.write(result)
 
     def render(self, builder):
         template_name = self.metadata.get("template", self.default_template)
         template = builder.jinja_env.get_template(template_name)
-        result = template.render(**self.render_ctx())
+        ctx = self.render_ctx(builder)
+        result = template.render(**ctx)
         return result
 
-    def render_ctx(self):
-        return {"page": self}
+    def render_ctx(self, builder):
+        return {"page": self, "posts": builder.posts}
+
+    def write(self, result):
+        dir_path = self.dest_path.parent
+        dir_path.mkdir(parents=True, exist_ok=True)
+        with self.dest_path.open("w") as fd:
+            fd.write(result)
 
 
 class Post(Page):
@@ -102,5 +106,13 @@ class Post(Page):
             data["twitter:image"] = self.metadata["image"]
         return data
 
-    def render_ctx(self):
-        return {"post": self, "og_data": self.og_data}
+    def render_ctx(self, builder):
+        return {"page": self, "post": self, "og_data": self.og_data}
+
+
+def parse_markdown(src: str) -> str:
+    md = (
+        MarkdownIt("commonmark", {"html": True})
+    )
+    # md.parse(src)
+    return md.render(src)

@@ -1,58 +1,25 @@
-<!DOCTYPE html>
-<html lang="en">
-{% include("_head.j2") %}
+{% extends "_base.j2" %}
 
-<body>
-<div
-    class="content-wrapper bg-background-primary font-sans text-copy-primary leading-normal flex flex-col min-h-screen theme-light"
-    id="app">
-
-  {% include("_header.j2") %}
-
-  <div class="flex-grow">
-    <div class="container-inner mx-auto py-16">
-
-      <h2 class="text-3xl leading-tight font-bold mb-8 border-b">
-        {{ title }}
+{% block content %}
+  {% for post in posts %}
+    <div
+      class="post border-gray-400 border-b mb-12"
+    >
+      <h2 class="text-3xl leading-tight font-bold">
+        <a href="{{ post.url }}" class="text-gray-900">{{ post.title }}</a>
       </h2>
 
-      <div class="container-inner mx-auto my-16 text-xl">
+      <div class="text-gray-600 italic mt-2 mb-4">
+        <span>{{ post.date }}</span>
+      </div>
 
-        {% for post in posts %}
-          <div
-              class="post border-gray-400 border-b mb-12"
-          >
-            <h2 class="text-2xl leading-tight font-bold">
-              <a href="{{ post.url }}" class="text-copy-primary">{{ post.title }}</a>
-            </h2>
+      <div class="text-lg mb-4">
+        {{ post.summary }}
+      </div>
 
-            <div class="text-copy-secondary mb-4">
-              <span>{{ post.date }}</span>
-            </div>
-
-            <div class="text-lg mb-4">
-              {{ post.summary }}
-            </div>
-
-            <div class="mb-8">
-              <a href="{{ post.url }}" class="font-bold uppercase">Read More</a>
-            </div>
-          </div>
-          <!-- end post -->
-        {% endfor %}
-
-        {#    <pagination-posts#}
-        {#        v-if="$page.posts.pageInfo.totalPages > 1"#}
-        {#        base="/blog"#}
-        {#        :totalPages="$page.posts.pageInfo.totalPages"#}
-        {#        :currentPage="$page.posts.pageInfo.currentPage"#}
-        {#    />#}
+      <div class="mb-8">
+        <a href="{{ post.url }}" class="font-bold">➜ Read More</a>
       </div>
     </div>
-
-  </div>
-</div>
-
-{% include("_footer.j2") %}
-</body>
-</html>
+  {% endfor %}
+{% endblock %}

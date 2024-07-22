@@ -1,5 +1,5 @@
 ---
-title: Presentations (conferences, lectures, etc.)
+title: Presentations
 ---
 
 I enjoy giving talks on subjects that matter to me.

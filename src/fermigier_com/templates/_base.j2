@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+{% include("_head.j2") %}
+
+<body>
+{% include("_header.j2") %}
+
+{% block title %}
+  <div class="max-w-4xl mx-auto px-4 md:px-8">
+    <h1 class="text-5xl leading-tight font-bold my-8">
+      {{ page.title }}
+    </h1>
+  </div>
+{% endblock %}
+
+<div class="max-w-4xl mx-auto px-4 md:px-8">
+  {% block content %}{% endblock %}
+</div>
+
+{% include("_footer.j2") %}
+
+</body>
+</html>

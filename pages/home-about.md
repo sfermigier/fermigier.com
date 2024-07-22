@@ -4,7 +4,6 @@ title: n/a
 template: home.j2
 ---
 
-My name is Stefane Fermigier, I'm a [tech entrepreneur](/business/).
 
 ## My companies (current and former)
 
@@ -17,7 +16,7 @@ and served as its CEO from 2000 to 2008, then as its executive chairman
 from 2008 to 2011. Nuxeo went to become the second largest open source
 ECM vendor and was eventually bought by Hyland for M$ 150 in 2021.
 
-[➜ More about my business activities](/business/)
+➜ [More about my business activities](/business/)
 
 ## My involvement in the open source ecosystem
 
@@ -66,7 +65,7 @@ I'm also the founder or a cofounder of several [open source projects](/open-sour
 
 * [Nuxeo CPS](https://github.com/nuxeo-cps) - the Nuxeo Collaborative Portal Server.
 
-[➜ More about my open source activities](/open-source/)
+➜ [More about my open source activities](/open-source/)
 
 
 ### Web sites and applications
@@ -80,8 +79,8 @@ I'm also the founder or a cofounder of several [open source projects](/open-sour
 
 ## Additional resources
 
-[➜ Talks I have given](/presentations/) (presentations, lectures...)
+➜ [Talks I have given](/presentations/) (presentations, lectures...)
 
-[➜ Things I have written](/writing/) (articles, books, papers...)
+➜ [Things I have written](/writing/) (articles, books, papers...)
 
-[➜ My blog](/blog/) (including ancient and outdated stuff)
+➜ [My blog](/blog/) (including ancient and outdated stuff)

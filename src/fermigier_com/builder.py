@@ -21,6 +21,7 @@ class Builder:
         for path in Path("blog").rglob("*.md"):
             post = Post(path)
             self.posts.append(post)
+            self.posts.sort(key=lambda post: post["date"], reverse=True)
 
         for path in Path("pages").glob("*.md"):
             page = Page(path)
@@ -68,7 +69,8 @@ class Builder:
             posts = posts[:10]
 
         template = self.jinja_env.get_template("blog_index.j2")
-        result = template.render(posts=posts, title=title)
+        page = {"title": title, "posts": posts}
+        result = template.render(posts=posts, title=title, page=page)
 
         dest_path.parent.mkdir(parents=True, exist_ok=True)
         with dest_path.open("w") as fd:
