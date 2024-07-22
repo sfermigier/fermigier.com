@@ -76,9 +76,19 @@ class Page:
         with self.dest_path.open("w") as fd:
             fd.write(result)
 
+    @property
+    def json_ld(self):
+        return {}
+
 
 class Post(Page):
     default_template = "blog_post.j2"
+
+    def __repr__(self):
+        return f"<Post {self['path']}>"
+
+    def render_ctx(self, builder):
+        return {"page": self, "post": self, "og_data": self.og_data}
 
     @property
     def dest_path(self):
@@ -106,8 +116,17 @@ class Post(Page):
             data["twitter:image"] = self.metadata["image"]
         return data
 
-    def render_ctx(self, builder):
-        return {"page": self, "post": self, "og_data": self.og_data}
+    @property
+    def json_ld(self):
+        date = self["date"]
+        return {
+            "@context": "https://schema.org",
+            "@type": "Article",
+            "name": self["title"],
+            "publisher": "Stefane Fermigier",
+            "datePosted": date.isoformat(),
+            "description": self["summary"],
+        }
 
 
 def parse_markdown(src: str) -> str:

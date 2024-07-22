@@ -69,7 +69,11 @@ class Builder:
             posts = posts[:10]
 
         template = self.jinja_env.get_template("blog_index.j2")
-        page = {"title": title, "posts": posts}
+        page = {
+            "title": title,
+            "posts": posts,
+            "json_ld": {},
+        }
         result = template.render(posts=posts, title=title, page=page)
 
         dest_path.parent.mkdir(parents=True, exist_ok=True)

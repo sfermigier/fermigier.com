@@ -23,6 +23,12 @@
     {% endfor %}
   {%- endif %}
 
+  {% if page.json_ld -%}
+    <script type="application/ld+json">
+  {{ page.json_ld | tojson(indent=2) }}
+    </script>
+  {%- endif -%}
+
   <link
     crossorigin="anonymous"
     href="https://fonts.gstatic.com"
