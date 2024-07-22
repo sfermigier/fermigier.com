@@ -9,7 +9,7 @@ class Page:
     metadata: dict
     tags: list[dict]
     body: str = ""
-    body_html: str = ""
+    # body_html: str = ""
 
     default_template = "page.j2"
 
@@ -82,5 +82,25 @@ class Post(Page):
         assert path.startswith("/")
         return Path("dist") / path[1:] / "index.html"
 
+    @property
+    def og_data(self):
+        # https://developers.facebook.com/docs/sharing/webmasters/
+        data = {
+            "og:type": "article",
+            "og:title": self["title"],
+            "og:description": self["summary"],
+            "og:url": self.url,
+            "og:site_name": "Fermigier.com",
+            "twitter:card": "summary_large_image",
+            "twitter:title": self["title"],
+            "twitter:description": self["summary"],
+            "twitter:site": "@sfermigier",
+            "twitter:creator": "@sfermigier",
+        }
+        if "image" in self.metadata:
+            data["og:image"] = self.metadata["image"]
+            data["twitter:image"] = self.metadata["image"]
+        return data
+
     def render_ctx(self):
-        return {"post": self}
+        return {"post": self, "og_data": self.og_data}

@@ -4,15 +4,15 @@
   <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible"/>
 
   <meta
-      content="width=device-width, initial-scale=1, shrink-to-fit=no"
-      name="viewport"
+    content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    name="viewport"
   />
 
   <title>Stefane Fermigier, tech entrepreneur</title>
 
   <meta
-      property="og:title"
-      content="Stefane Fermigier, tech entrepreneur"
+    property="og:title"
+    content="Stefane Fermigier, tech entrepreneur"
   />
 
   <meta property="og:locale" content="en_US"/>
@@ -22,76 +22,28 @@
   <meta property="og:url" content="//post"/>
 
   <meta
-      name="description"
-      content="Stefane Fermigier, tech entrepreneur"
+    name="description"
+    content="Stefane Fermigier, tech entrepreneur"
   />
 
   <link rel="icon" type="image/png" href="/assets/img/favicon.png"/>
 
-  {#  <meta name="theme-color" content="#5540af"/>#}
-  {##}
-  {#  <meta property="og:site_name" content="Atom Template"/>#}
-  {##}
-  {#  <meta property="og:image" content="//assets/img/social.jpg"/>#}
-  {##}
-  {#  <meta name="twitter:card" content="summary_large_image"/>#}
-  {##}
-  {#  <meta name="twitter:site" content="@tailwindmade"/>#}
+  {%- if og_data %}
+    {% for k, v in og_data.items() %}
+      {% if k.startswith('og:') -%}
+        <meta property="{{ k }}" content="{{ v }}"/>
+      {%- elif k.startswith('twitter:') -%}
+        <meta name="{{ k }}" content="{{ v }}"/>
+      {%- endif -%}
+    {% endfor %}
+  {%- endif %}
 
   <link
-      crossorigin="anonymous"
-      href="https://fonts.gstatic.com"
-      rel="preconnect"
+    crossorigin="anonymous"
+    href="https://fonts.gstatic.com"
+    rel="preconnect"
   />
 
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito+Sans:400,700"/>
-  <link rel="stylesheet" href="/assets/css/styles.css" />
+  <link rel="stylesheet" href="/assets/css/styles.css"/>
 </head>
-
-{#  <head>#}
-{#    <title>Home - Stefane Fermigier, tech entrepreneur</title>#}
-{#    <meta data-vue-tag="ssr" charset="utf-8">#}
-{#    <meta data-vue-tag="ssr" name="generator" content="Gridsome v0.7.23">#}
-{#    <meta data-vue-tag="ssr" data-key="viewport" name="viewport"#}
-{#        content="width=device-width, initial-scale=1, viewport-fit=cover">#}
-{#    <meta data-vue-tag="ssr" data-key="format-detection" name="format-detection" content="telephone=no">#}
-{#    <meta data-vue-tag="ssr" name="keywords" content="Stefane Fermigier, Logiciel Libre, Open Source, Python, Abilian">#}
-{#    <meta data-vue-tag="ssr" name="description" content="Site personnel (et professionnel) de Stefane Fermigier">#}
-{#    <meta data-vue-tag="ssr" name="author" content="Stefane Fermigier">#}
-{##}
-{#    <link data-vue-tag="ssr" rel="icon" type="image/png" sizes="16x16"#}
-{#        href="/assets/static/favicon-192x192.ce0531f.ece88531ea48cf46c85877b5b1166783.png">#}
-{#    <link data-vue-tag="ssr" rel="icon" type="image/png" sizes="32x32"#}
-{#        href="/assets/static/favicon-192x192.ac8d93a.ece88531ea48cf46c85877b5b1166783.png">#}
-{#    <link data-vue-tag="ssr" rel="icon" type="image/png" sizes="96x96"#}
-{#        href="/assets/static/favicon-192x192.b9532cc.ece88531ea48cf46c85877b5b1166783.png">#}
-{#    <link data-vue-tag="ssr" rel="apple-touch-icon" type="image/png" sizes="76x76"#}
-{#        href="/assets/static/favicon-192x192.f22e9f3.ece88531ea48cf46c85877b5b1166783.png">#}
-{#    <link data-vue-tag="ssr" rel="apple-touch-icon" type="image/png" sizes="152x152"#}
-{#        href="/assets/static/favicon-192x192.62d22cb.ece88531ea48cf46c85877b5b1166783.png">#}
-{#    <link data-vue-tag="ssr" rel="apple-touch-icon" type="image/png" sizes="120x120"#}
-{#        href="/assets/static/favicon-192x192.1539b60.ece88531ea48cf46c85877b5b1166783.png">#}
-{#    <link data-vue-tag="ssr" rel="apple-touch-icon" type="image/png" sizes="167x167"#}
-{#        href="/assets/static/favicon-192x192.dc0cdc5.ece88531ea48cf46c85877b5b1166783.png">#}
-{#    <link data-vue-tag="ssr" rel="apple-touch-icon" type="image/png" sizes="180x180"#}
-{#        href="/assets/static/favicon-192x192.7b22250.ece88531ea48cf46c85877b5b1166783.png">#}
-{#    <link rel="preload" href="/assets/css/11.styles.8ffc36d2.css" as="style">#}
-{#    <link rel="preload" href="/assets/js/app.b67d0f2c.js" as="script">#}
-{#    <link rel="preload" href="/assets/js/page--src--pages--index-vue.f7a15334.js" as="script">#}
-{#    <link rel="prefetch" href="/assets/js/page--src--pages--404-vue.84861642.js">#}
-{#    <link rel="prefetch" href="/assets/js/page--src--pages--about-vue.51f55a31.js">#}
-{#    <link rel="prefetch" href="/assets/js/page--src--pages--blog-vue.29ae504f.js">#}
-{#    <link rel="prefetch" href="/assets/js/page--src--pages--business-vue.5913ef65.js">#}
-{#    <link rel="prefetch" href="/assets/js/page--src--pages--open-source-vue.1e91b9ec.js">#}
-{#    <link rel="prefetch" href="/assets/js/page--src--pages--presentations-vue.5c497003.js">#}
-{#    <link rel="prefetch" href="/assets/js/page--src--pages--writing-vue.8d2be327.js">#}
-{#    <link rel="prefetch" href="/assets/js/page--src--templates--post-vue.f35ce94e.js">#}
-{#    <link rel="prefetch" href="/assets/js/page--src--templates--tag-vue.9d27f148.js">#}
-{#    <link rel="stylesheet" href="/assets/css/11.styles.8ffc36d2.css">#}
-{#    <noscript data-vue-tag="ssr">#}
-{#      <style>.g-image--loading {#}
-{#          display: none;#}
-{#      }</style>#}
-{#    </noscript>#}
-{#  </head>#}
-

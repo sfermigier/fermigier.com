@@ -2,12 +2,12 @@
 title: "Summary of the OSPOs for Good 2024 Conference"
 date: 2024-07-20
 path: /blog/2024/07/summary-of-the-ospos-for-good-2024-conference.md
+image: /assets/images/2024/ospos-for-good-2024-conference.png
 summary: "The OSPOs for Good 2024 Conference, held at the United Nations Headquarters in New York City, explored the transformative potential of open source technology in addressing global challenges and accelerating progress towards the Sustainable Development Goals (SDGs). The two-day event brought together technologists, policymakers, and community advocates, featuring keynotes and panel discussions on topics such as artificial intelligence in open source frameworks, innovations from the Global South, and fostering collaboration for resilient digital ecosystems. The conference highlighted the need to bridge gaps between policy and practice, emphasizing the importance of creating environments where innovation and inclusivity can thrive in the open source ecosystem."
 tags:
   - Logiciel libre
   - Open Source
   - OSPO
-  - Sustainable Development Goals
   - United Nations
 ---
 
