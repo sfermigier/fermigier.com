@@ -4,8 +4,12 @@
 src/.temp
 node_modules
 dist
+
+# Secrets
+.envrc
 .env
 .env.*
+
 # Generated
 static/rss.xml
 static/sitemap.xml

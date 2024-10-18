@@ -1,3 +1,6 @@
+[project]
+name = "fermigier-com"
+
 [tool.poetry]
 name = "fermigier-com"
 version = "0.1.0"
@@ -23,10 +26,10 @@ setuptools = "^69.0.3"
 
 markdown-it-py = {extras = ["plugins"], version = "^3.0.0"}
 python-dateutil = "^2.9.0.post0"
+
 [tool.poetry.group.dev.dependencies]
-pytest = "^7.4.3"
-devtools = "^0.12.2"
-ruff = "^0.1.6"
+abilian-devtools = "*"
+
 
 [build-system]
 requires = ["poetry-core"]

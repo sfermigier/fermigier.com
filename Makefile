@@ -3,7 +3,7 @@ all: lint test
 
 .PHONY: lint
 lint:
-	ruff src tests
+	ruff check src tests
 
 .PHONY: test
 test:
@@ -17,7 +17,7 @@ format:
 
 .PHONY: build
 build:
-	ruff src tests
+	ruff check src tests
 	yarn run build
 	cp ./tailwind/dist/styles.css assets/css/
 	alamano build
