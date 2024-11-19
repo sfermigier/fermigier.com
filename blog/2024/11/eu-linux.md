@@ -151,8 +151,60 @@ Plusieurs initiatives ont poursuivi des objectifs similaires à ceux de l'« EU-
 
 Ces initiatives montrent la faisabilité de la mise en œuvre de systèmes d'exploitation souverains basés sur Linux, adaptés aux besoins spécifiques des gouvernements, et mettent en évidence l'impact positif que de telles initiatives peuvent avoir sur la souveraineté numérique et la cybersécurité.
 
-## Annexe: Références additionnelles
+## Anexe: Focus sur GendBuntu - migration vers le logiciel libre au sein de la Gendarmerie nationale française
 
+Sur la base de la présentation et de l'interview sus-mentionnées, on peut tire les enseignements suivants de l'expérience de la Gendarmerie nationale française avec GendBuntu :
+
+La migration de la Gendarmerie nationale française vers les logiciels libres constitue l’un des exemples les plus significatifs d’adoption de solutions open source à grande échelle en Europe. Lancée dans les années 2000, cette transition illustre une combinaison de pragmatisme stratégique, d’innovation technologique et de gestion rigoureuse des ressources publiques.
+
+### Contexte et enjeux initiaux
+
+Au début des années 2000, la Gendarmerie a été confrontée à des contraintes budgétaires majeures, liées à une nécessaire extension de son infrastructure informatique pour connecter 4300 sites distants et 100 000 utilisateurs, un saut d’échelle qui aurait engendré des coûts exponentiels avec des solutions propriétaires. Face à cette situation, trois éléments ont convergé pour amorcer le virage vers le logiciel libre : la nécessité de réduire les coûts, la volonté de restaurer une souveraineté technologique en évitant les dépendances critiques, et le soutien stratégique de la hiérarchie, essentiel à la continuité et au succès d’un projet d’une telle envergure.
+
+### Approche stratégique et méthodologique
+
+La Gendarmerie a opté pour une migration progressive et structurée. Plutôt que de commencer par le poste de travail, elle s’est d’abord concentrée sur le back-office, avec une adoption rapide de serveurs sous Debian et d’outils comme MySQL et PostgreSQL. Ce choix a permis de tester et valider les capacités du logiciel libre tout en posant les bases d’une infrastructure centralisée.
+
+Sur le poste de travail, la transition a été méthodique : avant de changer de système d’exploitation, la Gendarmerie a migré ses applications critiques vers des alternatives libres et standards. Firefox, Thunderbird, OpenOffice, puis LibreOffice ont été adoptés progressivement, accompagnés par des apports fonctionnels significatifs, comme l’accès Internet ou des services de messagerie pour tous les agents. Cette démarche a permis de réduire progressivement les dépendances à l’écosystème Windows.
+
+La migration vers Linux (via une distribution dérivée d’Ubuntu, baptisée GendBuntu) a été amorcée en 2008, avec un souci d’ergonomie pour limiter les perturbations : l’interface et les outils ont été adaptés pour imiter autant que possible l’environnement Windows. L’acceptation par les utilisateurs a été facilitée par une formation minimale, des outils de support interne, et la prise en compte des besoins spécifiques comme les normes d’accessibilité.
+
+### Pourquoi Gendbuntu?
+
+La Gendarmerie nationale a choisi de développer sa propre variante d'Ubuntu, baptisée **GendBuntu**, pour répondre à plusieurs besoins spécifiques et stratégiques qui ne pouvaient pas être satisfaits en utilisant directement Ubuntu. Voici les principales raisons :
+
+- **Personnalisation de l’interface utilisateur** : GendBuntu a été conçu pour ressembler autant que possible à l’environnement Windows utilisé précédemment, afin de minimiser les perturbations pour les utilisateurs. Par exemple, une barre des tâches similaire à celle de Windows a été ajoutée, et les outils intégrés ont été configurés pour offrir un rendu visuel et fonctionnel familier.
+- **Simplification des usages** : Certaines fonctionnalités et outils inutiles ou superflus dans le contexte de la Gendarmerie ont été supprimés pour alléger le système et le rendre plus efficace pour les tâches spécifiques des agents.
+- **Contrôle total sur les mises à jour** : En développant une variante spécifique, la Gendarmerie a pu intégrer ses propres politiques de sécurité, notamment en termes de configuration, de mise à jour, et de gestion des correctifs. Cela permet de réduire les risques liés à des modifications externes ou des dépendances à des décisions prises par Canonical (éditeur d’Ubuntu).
+- **Intégration aux infrastructures de la Gendarmerie** : Les systèmes informatiques de la Gendarmerie ont des exigences uniques, comme la compatibilité avec des logiciels métiers spécifiques, des bases de données et des systèmes d’authentification centralisés. GendBuntu a été conçu pour être parfaitement interopérable avec ces infrastructures existantes.
+- **Support des matériels spécifiques** : Certains matériels, comme des systèmes radio ou des dispositifs de communication sécurisée, nécessitent des pilotes ou des configurations particulières qui ne sont pas inclus dans une version standard d’Ubuntu.
+- **Réduction de la dépendance vis-à-vis de Canonical** : Bien qu’Ubuntu soit libre, sa gestion reste influencée par Canonical, une entreprise privée. En créant GendBuntu, la Gendarmerie conserve un contrôle total sur l’évolution et le cycle de vie de son système, évitant toute contrainte imposée par un tiers.
+- **Flexibilité dans les choix technologiques** : GendBuntu permet d’introduire ou de retirer des composants spécifiques sans attendre les décisions d’un éditeur externe, assurant une totale autonomie technologique.
+- **Homogénéité et industrialisation** : GendBuntu est optimisé pour être déployé sur les 80 000 postes informatiques de la Gendarmerie, avec des outils de gestion centralisée spécifiques, comme OCS Inventory et des scripts de configuration adaptés.
+- **Stabilité et support de long terme** : La Gendarmerie a basé GendBuntu sur les versions LTS (Long Term Support) d’Ubuntu, tout en ajoutant ses propres correctifs et fonctionnalités pour garantir une stabilité maximale sur de longues périodes, essentielle pour un environnement critique comme celui des forces de l’ordre.
+
+
+### Résultats obtenus
+
+1. **Réduction des coûts** : La Gendarmerie a économisé deux millions d’euros par an en licences logicielles, en plus des économies réalisées sur les coûts humains grâce à la centralisation de l’administration des systèmes.
+2. **Souveraineté accrue** : En adoptant des standards ouverts et en contribuant activement aux communautés open source (notamment via des outils comme LemonLDAP ou OCS Inventory), la Gendarmerie a renforcé son indépendance technologique.
+3. **Efficacité opérationnelle** : L’administration de 80 000 postes est assurée par seulement trois personnes, grâce à des outils libres de gestion de parc et de télé-déploiement.
+4. **Impact durable** : Cette transition a non seulement permis à la Gendarmerie de maîtriser ses systèmes mais a également influencé d’autres administrations françaises dans leur adoption des logiciels libres.
+
+### Enseignements clés
+
+Le principal enseignement de cette expérience est que le succès d’une migration vers le logiciel libre repose sur la prise en compte des besoins applicatifs avant toute modification du système d’exploitation. En s’assurant que les applications critiques étaient compatibles et en favorisant une adoption progressive et volontaire des solutions libres, la Gendarmerie a évité les résistances internes et les ruptures opérationnelles.
+
+De plus, l’importance du soutien hiérarchique et d’une gestion centralisée a été mise en avant. Ce cadre a permis de gérer les résistances politiques ou économiques et d’assurer une continuité dans les orientations stratégiques, même sur une période de plusieurs décennies.
+
+### Recommandations pour des projets similaires
+
+1. **Prioriser les applications** : Centraliser les applications et adopter des standards ouverts avant de migrer le système d’exploitation.
+2. **Adopter une approche modulaire** : Garantir une interopérabilité maximale grâce au respect des normes et standards libres, permettant de remplacer les composants sans affecter l’ensemble.
+3. **Impliquer les utilisateurs** : Proposer des apports fonctionnels significatifs à chaque étape pour faciliter l’adoption et réduire les résistances.
+4. **Soutenir les communautés** : Contribuer aux projets open source utilisés, non seulement pour renforcer leur robustesse, mais aussi pour bénéficier des innovations futures.
+
+## Annexe: Références additionnelles
 
 - Une prise de conscience croissante du besoin de souveraineté numérique en Europe (même si derrière ce terme se trouvent des idées assez hétérogènes).
 - Le lien entre souveraineté numérique et Open Source n'est plus à démontrer et se concrétise en Allemagne par la Sovereign Tech Agency (ex. Sovereign Tech Fund ) qui finance des éléments clefs du poste de travail Linux comme Gnome [^1].
