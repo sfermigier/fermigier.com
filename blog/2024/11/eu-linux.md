@@ -15,16 +15,20 @@ Dans une **[pétition récente](https://www.europarl.europa.eu/petitions/en/peti
 Un EU-Linux souverain offrirait de nombreux avantages :
 
 1. **Prêt et flexible** : Tirant parti de l'architecture mature et adaptable de Linux, une distribution spécifique à l'UE pourrait être adaptée aux exigences réglementaires particulières.
+
 2. **Efficacité économique** : Passer des licences propriétaires coûteuses à l'open source pourrait réduire les dépenses, permettant de réorienter les fonds vers l'innovation et le développement local du secteur informatique.
+
 3. **Sécurité renforcée** : En tant que système open source, Linux offre une transparence et une auditabilité permettant aux experts en cybersécurité de l'UE d'identifier et de corriger proactivement les vulnérabilités.
+
 4. **Interopérabilité** : La compatibilité de Linux avec les standards ouverts faciliterait la collaboration transfrontalière et le partage de données au sein de l'UE.
+
 5. **Souveraineté numérique et confidentialité** : En contrôlant le code du système d'exploitation, l'UE pourrait mieux protéger les données des citoyens, réduisant la dépendance aux systèmes étrangers.
 
 ## Contexte
 
 *"Le pétitionnaire appelle l'Union européenne à développer activement et à mettre en œuvre un système d'exploitation basé sur Linux, appelé 'EU-Linux', dans les administrations publiques de tous les États membres de l'UE. Cette initiative vise à réduire la dépendance aux produits Microsoft, à garantir la conformité au Règlement général sur la protection des données (RGPD) et à promouvoir la transparence, la durabilité et la souveraineté numérique au sein de l'UE. Le pétitionnaire souligne l'importance d'utiliser des alternatives open source à Microsoft 365, telles que LibreOffice et Nextcloud, et propose l'adoption du système d'exploitation mobile E/OS pour les appareils gouvernementaux. Le pétitionnaire met également en avant le potentiel de création d'emplois dans le secteur des technologies de l'information grâce à cette initiative."*
 
-Lien vers la pétition : https://www.europarl.europa.eu/petitions/en/petition/content/0729%252F2024/html/Petition-No-0729%252F2024-by-N.-W.-%2528Austrian%2529-on-the-implementation-of-an-EU-Linux-operating-system-in-public-administrations-across-all-EU-countries
+Lien vers la pétition : <https://www.europarl.europa.eu/petitions/en/petition/content/0729%252F2024/html/Petition-No-0729%252F2024-by-N.-W.-%2528Austrian%2529-on-the-implementation-of-an-EU-Linux-operating-system-in-public-administrations-across-all-EU-countries>
 
 ## Argumentaire
 
@@ -58,7 +62,7 @@ Linux excelle dans le soutien aux **standards ouverts**, ce qui est essentiel po
 
 #### Références
 
-- https://www.numerique.gouv.fr/publications/interoperabilite/
+- <https://www.numerique.gouv.fr/publications/interoperabilite/>
 - [https://www.canada.ca/en/government/system/digital-government/digital-government-innovations/open-source-software/open-first-whitepaper/open-first-whitepaper-standards.html](https://www.canada.ca/en/government/system/digital-government/digital-government-innovations/open-source-software/open-first-whitepaper/open-first-whitepaper-standards.html)
 - [https://fsfe.org/freesoftware/standards/eif-v3.en.html](https://fsfe.org/freesoftware/standards/eif-v3.en.html)
 

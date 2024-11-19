@@ -14,27 +14,26 @@ python = "^3.10"
 
 jinja2 = "^3.1.2"
 markdown = "^3.5.1"
-typer = "^0.9.0"
-attrs = "^23.1.0"
+typer = "^0.13"
+attrs = "^24"
 pyyaml = "^6.0.1"
-argh = "^0.30.4"
-watchdog = {extras = ["watchmedo"], version = "^3.0.0"}
-honcho = "^1.1.0"
-watchfiles = "^0.21.0"
-setuptools = "^69.0.3"
+argh = "^0.31"
+watchdog = {extras = ["watchmedo"], version = "^6.0.0"}
+honcho = "^2"
+watchfiles = "^0.24"
+setuptools = "^75"
 
-
-markdown-it-py = {extras = ["plugins"], version = "^3.0.0"}
+markdown-it-py = {extras = ["linkify", "plugins"], version = "^3.0.0"}
 python-dateutil = "^2.9.0.post0"
 
-[tool.poetry.group.dev.dependencies]
-abilian-devtools = "*"
-
+[dependency-groups]
+dev = [
+    "abilian-devtools>=0.7.4",
+]
 
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
-
 
 [tool.poetry.scripts]
 alamano = "fermigier_com.cli:app"

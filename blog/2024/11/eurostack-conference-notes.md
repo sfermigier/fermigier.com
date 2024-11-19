@@ -2,7 +2,7 @@
 title: "Euro Stack Conference notes (sept. 2024)"
 date: 2024-11-19
 path: /blog/2024/11/eurostack-conference-notes.md
-summary: ""
+summary: "A summary of the Toward European Digital Independence: Building the Euro Stack conference which took place on 24 September 2024 at the European Parliament in Brussels. The event addressed topics related to European digital independence, public digital infrastructure, policy-making, and the role of digital commons in Europe."
 tags:
   - Logiciel libre
   - Open Source

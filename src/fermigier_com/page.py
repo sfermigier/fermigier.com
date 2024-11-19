@@ -2,6 +2,7 @@ from pathlib import Path
 
 import yaml
 from markdown_it import MarkdownIt
+from mdit_py_plugins.footnote import footnote_plugin
 
 
 class Page:
@@ -132,6 +133,7 @@ class Post(Page):
 def parse_markdown(src: str) -> str:
     md = (
         MarkdownIt("commonmark", {"html": True})
+        .use(footnote_plugin)
     )
     # md.parse(src)
     return md.render(src)
