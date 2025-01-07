@@ -1,5 +1,6 @@
 [project]
 name = "fermigier-com"
+version = "0.1.0"
 
 [tool.poetry]
 name = "fermigier-com"
