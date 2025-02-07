@@ -26,6 +26,7 @@ setuptools = "^75"
 
 markdown-it-py = {extras = ["linkify", "plugins"], version = "^3.0.0"}
 python-dateutil = "^2.9.0.post0"
+invoke = "^2.2.0"
 
 [dependency-groups]
 dev = [

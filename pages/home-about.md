@@ -25,7 +25,9 @@ ECM vendor and was eventually bought by Hyland for M$ 150 in 2021.
 I have cofounded and led several organizations dedicated to
 developing the open source ecosystem in France and Europe:
 
-* [APELL](https://apell.info/) (2020), the European Open Source Software Business Association (Association Professionnelle Européenne du Logiciel Libre). I'm serving as a board members since 2020, and as the chairman in 2022.
+* [The EuroStack Initiative](https://euro-stack.com/) (2024), a European initiative to promote open source and European technologies as the foundation of the European Tech Stack.
+
+* [APELL](https://apell.info/) (2020), the European Open Source Software Business Association (Association Professionnelle Européenne du Logiciel Libre). I'm serving as a board members since 2020, and as the chairman in 2022 and 2025 (co-chairmain to be accurate).
 
 * [CNLL](https://cnll.fr/) (2010), the French National Council of Free / Open Source Companies. I'm serving as co-chairman since 2016.
 
@@ -51,7 +53,7 @@ developing the open source ecosystem in France and Europe:
 
 I'm also the founder or a cofounder of several [open source projects](/open-source/), including:
 
-* [Nua](https://nua.rocks/) - a self-hosted PaaS and application marketplace.
+* [Nua](https://nua.rocks/) and [Hop3](https://github.com/abilian/hop3) - a self-hosted PaaS and an application "marketplace".
 
 * [Olapy](https://github.com/abilian/olapy) - an experimental OLAP engine based on Pandas.
 
@@ -69,6 +71,8 @@ I'm also the founder or a cofounder of several [open source projects](/open-sour
 
 
 ### Web sites and applications
+
+* [The EuroStack Directory Project](https://euro-stack.com/) - a directory of European and/or Open Source technologies, solutions and services.
 
 * [Joinux](https://joinux.com) - Joinux - Resources for the F/OSS ecosystem.
 
