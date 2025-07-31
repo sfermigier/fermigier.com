@@ -6,7 +6,7 @@ from markdown.extensions.toc import slugify
 
 from fermigier_com import watcher, builder
 
-app = typer.Typer()
+app = typer.Typer(pretty_exceptions_enable=False)
 
 
 @app.command()
